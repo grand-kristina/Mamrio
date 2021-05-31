@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_raketa.css">
+    <title>Рекорды</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
+  </head>
+
+    <header class="page-header">
+    </header>
+  <body class="semi-transparent">
+    <section class="hero-image">
+	  <div class="container">
+        <h1 class="heading">Рекорды</h1>
+	  </div>
+	  <div class="container menu">
+	  	<h2>Ваше имя: <div id="name"></div> </h2> 
+      <h2>Очки: <span id='valu'></span></h2>
+	    <p><a class="button exit" href="index.html">На главную</a></p>
+	  </div>
+    </section>
+  </body>
+  <footer class="page-footer">
+  </footer>
+  <script src="name.js"></script>
+  <script language="JavaScript">
+      var value = localStorage.getItem('val'); 
+
+      var a = document.getElementById('valu')
+      a.innerHTML = value
+  </script>
+</html>

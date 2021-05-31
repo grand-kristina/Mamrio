@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  min-width: 800px;
+  font-family:  "Consalas", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #3BB143;
+  background-color: rgb(46,48,147);
+  background-image: url("img/hero-bg.png");
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.page-header {
+  margin: 0 0 120px;
+  padding: 32px 0 32px;
+}
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: right;
+}
+
+.hero-image {
+  margin-bottom: 80px;
+  text-shadow: red 2px 0 5px;
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.portfolio {
+  margin: 0 0 120px;
+  line-height: 22px;
+}
+
+.portfolio h3 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.intro {
+  margin: 0 0 120px;
+}
+
+.intro p {
+  margin: 0 0 32px;
+}
+
+.intro img {
+  height: 200px;
+  width: 200px;
+}
+
+.semi-transparent {
+  background-image: url("img/hero-bg.png");
+}
+
+.container {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.heading {
+  margin: 0 0 24px;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.menu {
+	margin-top: 20px;
+}
+
+.menu p{
+    text-shadow: none;
+}
+
+.exit{
+    margin: 40px;
+}
+
+.button {
+  width: 250px;
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #3BB143;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.staaart {
+  background-color: #007765;
+  background-image: url(img/button.png);
+}
+
+.staaart.button:hover {
+   background: black;
+}
+
+
+
+.button::active {
+   background: white;
+}
+
+.subheading {
+  margin: 0 0 26px;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.minmargin {
+	max-width: none;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
+}
+
+.records {
+  font-size: 24px;
+  color: #007765;
+  line-height: 30px;
+  margin: 0 0 60px;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+}

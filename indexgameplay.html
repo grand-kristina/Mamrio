@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="memory-game">
+   
+      <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/mario1.png" alt="" />
+        <img class="back-face" src="img/js-badge.svg" alt="JS Badge" />
+      </div>
+      <div class="memory-card" data-framework="aurelia">
+        <img class="front-face" src="img/mario1.png" alt="" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+      <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/mario2.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+      <div class="memory-card" data-framework="vue">
+        <img class="front-face" src="img/mario2.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+      <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+      <div class="memory-card" data-framework="angular">
+        <img class="front-face" src="img/angular.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+      <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/mario3.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+      <div class="memory-card" data-framework="ember">
+        <img class="front-face" src="img/mario3.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+      <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/mario4.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+      <div class="memory-card" data-framework="backbone">
+        <img class="front-face" src="img/mario4.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+      <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/mario5.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+      <div class="memory-card" data-framework="react">
+        <img class="front-face" src="img/mario5.png" alt="=" />
+        <img class="back-face" src="img/js-badge.svg" alt="" />
+      </div>
+
+  </section>
+
+  <section class="contacts">
+      <a class="button" href="#" onClick="timer();">Запуск таймера </a>
+      <span class="minute for-time">0</span>
+      <span class="dot for-time"> : </span>
+      <span class="seconds for-time">0</span>
+      <button class="button" type="button" onclick="window.location.href='indexgameplay.html'">Начать заново</button>
+      <span class="score for-time">0</span>
+</section>
+
+
+
+
+  <section class="modal-write-us">
+        <div class="modal-write-us-header-container">
+            <h3 class="modal-write-us-header">Время закончено :( </h3>
+            <button type="button" class="modal-write-us-close-button" onclick="window.location.href='index.html'"></button>
+        </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
